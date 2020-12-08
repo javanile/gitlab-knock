@@ -82,7 +82,7 @@ knock_step() {
 ##
 ##
 knock_process() {
-    knock_step update $1 $2 $3 || knock_step create $1 $2 $3
+    knock_step update "$1" "$2" "$3" || knock_step create "$1" "$2" "$3"
 }
 
 ##
@@ -94,7 +94,7 @@ main() {
     [[ -z "$2" ]] && error "Missing repository branch"
     [[ -z "$3" ]] && error "Missing knock message"
 
-    knock_process $1 $2 $3
+    knock_process "$1" "$2" "$3"
 
     echo ""
 }

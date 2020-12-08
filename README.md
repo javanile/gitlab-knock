@@ -1,1 +1,1 @@
-# gitlab-knock
+# gitlab-ci-helper

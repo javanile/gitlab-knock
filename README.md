@@ -1,5 +1,6 @@
 # gitlab-knock
 
+> struemnto per interconnettere piu pipeline fra i vari repository gitlab (previsto l'uso in kubernates)
 
 ## Short url
 
